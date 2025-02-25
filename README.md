@@ -23,7 +23,7 @@ HTML/CSS/JS styling is not part of this, it doesn’t matter how it looks like.
 
 ## This repo is my solution to the above problem
 
-1st part of the problem was there was no easy way for the orininal API to return 5 quotes without doing 5 http requests. So I found the JSon of 122 quotes in a github repo and used that instead.
+1st part of the problem was there was no easy way for the original API to return 5 quotes without doing 5 http requests. So I found the JSon of 122 quotes in a github repo and used that instead.
 I made an HTTP client(uses guzzel) request to the git hub repo [here](https://raw.githubusercontent.com/ajzbc/kanye.rest/refs/heads/master/src/quotes.json)
 
 And stored the result in a cache using the SQLite db cache table.
